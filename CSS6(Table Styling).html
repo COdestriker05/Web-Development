@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table CSS</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            border-spacing: 5px;
+        }
+        th{
+            background-color: coral;
+        }
+        td{
+            background-color: aquamarine;
+        }
+        .foot{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table:</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th>Total Marks</th>
+            <th>Grades</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>English</th>
+                <td>79</td>
+                <td>18</td>
+                <td>97</td>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <th>Mathematics</th>
+                <td>71</td>
+                <td>16</td>
+                <td>87</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <th>Physics</th>
+                <td>74</td>
+                <td>19</td>
+                <td>93</td>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <th>Chemistry</th>
+                <td>55</td>
+                <td>14</td>
+                <td>69</td>
+                <td>B2</td>
+            </tr>
+            <tr>
+                <th>IT</th>
+                <td>79</td>
+                <td>20</td>
+                <td>99</td>
+                <td>A1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Overall Grade</th>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    Result:PASS
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
